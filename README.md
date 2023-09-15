@@ -1,4 +1,4 @@
-![og-image](./public/og.png)
+![og-image](./app/opengraph-image.png)
 
 # JSON Data AI
 

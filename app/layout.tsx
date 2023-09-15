@@ -8,12 +8,28 @@ import Script from "next/script";
 import { cn } from "@/lib/utils";
 import { Column } from "@/components/ui/column";
 import Footer from "@/components/footer";
+import { Metadata } from "next";
 
 const inter = Inter({ subsets: ["latin"] });
 
-export const metadata = {
-  title: "JSONDataAI",
-  description: "AI powered JSON API",
+const title = "JSON Data AI";
+const description = "Get JSON data about anything depending on your prompt";
+
+export const metadata: Metadata = {
+  metadataBase: new URL("https://jsondataai.com"),
+  title,
+  description,
+  openGraph: {
+    title,
+    description,
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title,
+    description,
+  },
 };
 
 export default async function RootLayout({
