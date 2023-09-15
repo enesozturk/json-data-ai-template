@@ -526,7 +526,7 @@ function Item({ item, onSelectExample }: ItemProps) {
       className="group min-w-[256px] w-[256px] border flex items-center justify-center border-primary/20 rounded p-4 cursor-pointer hover:border-muted-foreground hover:shadow-md transition-colors"
     >
       <P className="group-hover:text-primary text-primary/70 line-clamp-2 leading-tight">
-        {item}
+        {item?.prompt}
       </P>
     </div>
   );

@@ -13,7 +13,7 @@ import { SectionExampleJSONs } from "@/components/section-example-jsons";
 export default function Home() {
   const handleTryNow = () => {
     const joinWaitlistSection = document.getElementById(
-      "try-now-secion"
+      "playground-section"
     ) as HTMLElement;
 
     if (joinWaitlistSection) {
@@ -55,7 +55,7 @@ export default function Home() {
         </Button>
       </Row>
       <Row className="my-16 w-full h-[1px] bg-gradient-to-r from-transparent via-gray-200 dark:via-gray-800 to-transparent" />
-      <Column id="try-now-secion" className="gap-8 w-full">
+      <Column className="gap-8 w-full">
         <Playground />
       </Column>
       <Row className="my-16 w-full h-[1px] bg-gradient-to-r from-transparent via-gray-200 dark:via-gray-800 to-transparent" />

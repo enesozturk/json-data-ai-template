@@ -90,7 +90,10 @@ export default function Playground() {
         </Row>
         <Step className={"mt-4"} step="2" text="Click Get JSON Data" />
       </Column>
-      <div className="flex items-center w-full justify-center">
+      <div
+        id="playground-section"
+        className="flex items-center w-full justify-center"
+      >
         <div className="w-full max-w-5xl mx-auto gap-2 md:gap-6 flex flex-col md:flex-row items-center md:items-start">
           <Column className="flex-col md:flex-row w-full flex items-start gap-4">
             <JSONDataFrom
