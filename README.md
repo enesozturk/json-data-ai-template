@@ -4,7 +4,8 @@
 
 Get JSON data about anything depending on your prompt. Define your structure, list results.
 
-<img alt="Book us with Cal.com" src="https://cal.com/book-with-cal-dark.svg" />
+<a href="https://cal.com/enes/json-data-ai?utm_source=banner&utm_campaign=oss
+"><img alt="Book us with Cal.com" src="https://cal.com/book-with-cal-dark.svg" /></a>
 
 ---
 
