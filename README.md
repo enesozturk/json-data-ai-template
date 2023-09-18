@@ -4,6 +4,10 @@
 
 Get JSON data about anything depending on your prompt. Define your structure, list results.
 
+<img alt="Book us with Cal.com" src="https://cal.com/book-with-cal-dark.svg" />
+
+---
+
 This repository includes the basic setup of JSONDataAI.com with the following stack:
 
 - Vercel AI SDK
