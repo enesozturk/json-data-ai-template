@@ -4,11 +4,6 @@
 
 Get JSON data about anything depending on your prompt. Define your structure, list results.
 
-<a href="https://cal.com/enes/json-data-ai?utm_source=banner&utm_campaign=oss
-"><img alt="Book us with Cal.com" src="https://cal.com/book-with-cal-dark.svg" /></a>
-
----
-
 This repository includes the basic setup of JSONDataAI.com with the following stack:
 
 - Vercel AI SDK
@@ -17,6 +12,12 @@ This repository includes the basic setup of JSONDataAI.com with the following st
 - Shadcn UI
 - Supabase
 - React Hook Form for dynamic forms
+
+### You liked the project?
+
+<a href="https://www.buymeacoffee.com/enesozturk" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee"></a>
+<a href="https://cal.com/enes/json-data-ai?utm_source=banner&utm_campaign=oss
+"><img alt="Book us with Cal.com" src="https://cal.com/book-with-cal-dark.svg" /></a>
 
 ## Get Started
 
